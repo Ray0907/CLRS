@@ -29,11 +29,11 @@ def countSort(arr, min, max):
             else:
                 count = cumulativeSum_dict[data] - cumulativeSum_dict[data -1]
                 for i in range(count):
-                    sorted.append(data)
+                    sorted.extend(data)
         else:
             count = cumulativeSum_dict[data]
             for i in range(count):
-                sorted.append(data)
+                sorted.extend(data)
     return sorted
 
 if __name__ == '__main__':
