@@ -16,3 +16,9 @@
 2. A recursive solution.
 3. Computing the length of an LCS
 4. Constructing an LCS
+
+### Optimal binary search trees
+
+1. The structure of an optimal binary search tree
+2. A recursive solution
+3. Computing the expected search cost of an optimal binarysearch tree
